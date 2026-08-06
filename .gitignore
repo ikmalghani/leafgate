@@ -1,0 +1,65 @@
+# Datasets (large; keep offline / on Kaggle)
+leaf_noleaf_dataset/
+leaf_noleaf_dataset.zip
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.venv/
+venv/
+ENV/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML / training artifacts
+*.h5
+*.keras
+*.ckpt
+*.pb
+checkpoints/
+runs/
+logs/
+wandb/
+.tensorboard/
+*.pkl
+*.pickle
+
+# Generated C (lives in ACLIS_IKMAL; ignore if emitted here)
+codegen_leaf_gate/
+leaf_gate_nn.h
+*_gen.c
+*_gen.h
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Secrets / local env
+.env
+.env.*
+*.pem
